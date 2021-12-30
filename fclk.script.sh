@@ -10,7 +10,7 @@ else
 	
 	if ! command -v upp &> /dev/null
 	then
-    		echo "uplift power play could not be found" 
+    		echo "uplift power play could not be found starting installation" 
 		sleep 5
 		pip3 install upp
 	else
